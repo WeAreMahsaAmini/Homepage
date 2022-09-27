@@ -1,0 +1,65 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "/Users/keyvan/wearemahsaamini/homepage/src/index.tsx",
+  "plugins": [
+    "react-static-plugin-typescript",
+    [
+      "/Users/keyvan/wearemahsaamini/homepage/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/keyvan/wearemahsaamini/homepage/src/pages"
+      }
+    ],
+    "/Users/keyvan/wearemahsaamini/homepage/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/keyvan/wearemahsaamini/homepage/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/keyvan/wearemahsaamini/homepage"
+  ],
+  "paths": {
+    "ROOT": "/Users/keyvan/wearemahsaamini/homepage",
+    "SRC": "/Users/keyvan/wearemahsaamini/homepage/src",
+    "DIST": "/Users/keyvan/wearemahsaamini/homepage/dist",
+    "ASSETS": "/Users/keyvan/wearemahsaamini/homepage/dist",
+    "PLUGINS": "/Users/keyvan/wearemahsaamini/homepage/plugins",
+    "TEMP": "/Users/keyvan/wearemahsaamini/homepage/tmp",
+    "ARTIFACTS": "/Users/keyvan/wearemahsaamini/homepage/artifacts",
+    "PUBLIC": "/Users/keyvan/wearemahsaamini/homepage/public",
+    "NODE_MODULES": "/Users/keyvan/wearemahsaamini/homepage/node_modules",
+    "EXCLUDE_MODULES": "/Users/keyvan/wearemahsaamini/homepage/node_modules",
+    "PACKAGE": "/Users/keyvan/wearemahsaamini/homepage/package.json",
+    "HTML_TEMPLATE": "/Users/keyvan/wearemahsaamini/homepage/dist/index.html",
+    "STATIC_DATA": "/Users/keyvan/wearemahsaamini/homepage/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
