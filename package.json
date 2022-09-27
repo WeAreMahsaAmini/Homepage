@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "build": "gatsby build && cp public dist",
+    "build": "gatsby build && cp -r public dist",
     "serve": "gatsby serve"
   },
   "engines": {
