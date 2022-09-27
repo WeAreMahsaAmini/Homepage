@@ -1,37 +1,43 @@
 {
-  "name": "react-static-example-typescript",
-  "private": true,
+  "name": "gatsby-starter-portfolio-minimal-theme",
+  "version": "1.0.0",
+  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "bundle": "react-static bundle",
-    "export": "react-static export",
-    "serve": "serve dist -p 3000 -s"
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build && mv public dist",
+    "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "dependencies": {
-    "@reach/router": "^1.3.4",
-    "axios": "^0.21.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-hot-loader": "^4.13.0",
-    "react-static": "^7.5.1",
-    "react-static-plugin-reach-router": "^7.5.1",
-    "react-static-plugin-sitemap": "^7.5.1",
-    "react-static-plugin-source-filesystem": "^7.5.1",
-    "react-static-plugin-typescript": "^7.5.1"
+    "gatsby": "^4.18.2",
+    "gatsby-theme-portfolio-minimal": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
-  "devDependencies": {
-    "@types/node": "^14.14.31",
-    "@types/reach__router": "^1.3.7",
-    "@types/react": "^16.14.4",
-    "@types/react-dom": "^16.9.11",
-    "@types/webpack-env": "^1.16.0",
-    "react-hot-loader": "^4.13.0",
-    "serve": "^11.3.2",
-    "typescript": "^4.1.5"
+  "author": "Konstantin Münster <mail@konstantin.digital>",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-portfolio-minimal-theme",
+  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
   },
-  "resolutions": {
-    "@types/react": "^16.14.4"
-  }
+  "bugs": {
+    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "gatsby-theme",
+    "PWA",
+    "portfolio",
+    "showcase",
+    "minimal",
+    "animations",
+    "dark-mode",
+    "gdpr-compliant"
+  ]
 }
