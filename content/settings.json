@@ -17,18 +17,15 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "#MahsaAmini" },
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "About", "url": "/#about" }
       ],
       "ctaButton": {
         "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
+        "label": "Be Our Voice",
+        "url": "#"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },

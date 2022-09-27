@@ -1,21 +1,21 @@
 {
-  "intro": "Hej",
-  "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+  "intro": "Hi, there",
+  "heroPhoto1": {
+    "src": "../../images/mahsaamini.jpeg",
     "alt": "My Photo"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "You may be wondering who is Mahsa Amini?",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
+    "prefix": "She was a 22-year-old Iranian ",
+    "highlight": "murdered by police",
     "suffix": "."
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-  "socialProfiles": {
+  "description": "",
+  "socialProfiles1": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],
     "showIcons": false
   }
