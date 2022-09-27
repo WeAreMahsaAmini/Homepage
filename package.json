@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
+  "name": "we-are-mahsa-amini",
   "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "description": "We are Mahsa Amini.",
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "build": "gatsby build && mv public dist",
+    "build": "gatsby build && cp public dist",
     "serve": "gatsby serve"
   },
   "engines": {
@@ -17,27 +17,25 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "author": "Konstantin Münster <mail@konstantin.digital>",
+  "author": "We Are Mahsa Amini <info@wearemahsaamini.com>",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-minimal-theme",
-  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
+  "homepage": "https://wearemahsaamini.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
+    "url": "https://github.com/WeAreMahsaAmini/Homepage.git"
   },
   "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
+    "url": "https://github.com/WeAreMahsaAmini/Homepage"
   },
   "keywords": [
-    "react",
-    "gatsby",
-    "gatsby-theme",
-    "PWA",
-    "portfolio",
-    "showcase",
-    "minimal",
-    "animations",
-    "dark-mode",
-    "gdpr-compliant"
+    "mahsa",
+    "amini",
+    "woman",
+    "life",
+    "freedom",
+    "iran",
+    "islamic",
+    "republic"
   ]
 }

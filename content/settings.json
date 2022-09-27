@@ -1,19 +1,17 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "siteUrl": "https://wearemahsaamini.com/",
+    "title": "We Are Mahsa Amini",
+    "titleTemplate": "%s",
+    "description": "We are Mahsa Amini.",
+    "author": "We Are Mahsa Amini",
     "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "bio": "We are Mahsa Amini.",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "github": "https://github.com/WeAreMahsaAmini/",
+      "mail": "mailto:info@wearemahsaamini.com",
+      "medium": "https://konstantinmuenster.medium.com"
     }
   },
   "siteConfiguration": {

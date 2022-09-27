@@ -6,7 +6,7 @@ node_modules/
 
 .cache/
 public
-
+dist
 src/gatsby-types.d.ts
 
 ### Linux ###
@@ -82,5 +82,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# IDE
+.idea
+.vscode
 
 # End of https://www.toptal.com/developers/gitignore/api/gatsby,macos,linux,windows
