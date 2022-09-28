@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   AboutSection,
   ArticlesSection,
@@ -8,12 +8,12 @@ import {
   Page,
   ProjectsSection,
   Seo,
-} from "gatsby-theme-portfolio-minimal";
+} from 'gatsby-theme-portfolio-minimal';
 
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Gatsby Starter for Portfolio Minimal" />
+      <Seo title="We are Mahsa Amini" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         <AboutSection sectionId="about" heading="About Mahsa Amini" />
