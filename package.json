@@ -6,7 +6,8 @@
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "build": "gatsby build && cp -r public dist",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "lint": "eslint \"**/*.{js, jsx, json, md}\""
   },
   "engines": {
     "node": ">=16.0.0"
@@ -18,7 +19,7 @@
     "react-dom": "^17.0.2"
   },
   "author": "We Are Mahsa Amini <info@wearemahsaamini.com>",
-  "license": "0BSD",
+  "license": "Apache-2.0",
   "starter-name": "gatsby-starter-portfolio-minimal-theme",
   "homepage": "https://wearemahsaamini.com",
   "repository": {
@@ -37,5 +38,17 @@
     "iran",
     "islamic",
     "republic"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "prettier": "^2.7.1"
+  }
 }
