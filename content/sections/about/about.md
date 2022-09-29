@@ -30,7 +30,7 @@ They want their freedom back.
 
 # How can you help?
 
-Spread the word, be our voice.
+Spread the word, <a href="https://twitter.com/intent/tweet?url=https://wearemahsaamini.com/&text=I%20stand%20with%20%23MahsaAmini%20%23%D9%85%D9%87%D8%B3%D8%A7%D9%80%D8%A7%D9%85%DB%8C%D9%86%DB%8C%20%23%D8%A7%D8%B9%D8%AA%D8%B5%D8%A7%D8%A8%D9%80%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C%20%23OpIran" target="_blank">be our voice</a>.
 
 ----
 
