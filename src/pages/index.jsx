@@ -16,11 +16,11 @@ export default function IndexPage() {
       <Seo title="We are Mahsa Amini" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        <AboutSection sectionId="about" heading="About Mahsa Amini" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
-        <InterestsSection sectionId="details" heading="Details" />
-        <ProjectsSection sectionId="features" heading="Events" />
-        <ContactSection sectionId="github" heading="Issues?" />
+        <AboutSection sectionId="about" heading="Why people are protesting?" />
+        {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
+        {/* <InterestsSection sectionId="details" heading="Details" /> */}
+        {/* <ProjectsSection sectionId="features" heading="Events" /> */}
+        {/* <ContactSection sectionId="github" heading="Issues?" /> */}
       </Page>
     </>
   );
