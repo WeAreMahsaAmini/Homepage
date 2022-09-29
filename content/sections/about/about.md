@@ -14,12 +14,13 @@ The government of Iran is attempting to suppress the protests, shooting proteste
 
 # What are protesters asking for?
 
-The protestors are not protesting against Islam or any other religion, they are fighting for their basic rights:
+The protestors are not protesting against Islam or any other religion, they are fighting for woman's basic rights:
 
 * The right to choose how they dress
-* The right for women to ride a bicycle, sing, or dance
-* The right for women to ask for a divorce, and to be considered to have custody over their children
-* The right for women to go to the stadium
+* The right to sing or dance
+* The right to ask for a divorce, and to be considered to have custody over their children
+* The right to leave their country without their husband's permission
+* The right to go to the stadium
 
 They are fighting for freedom of speech, not only for journalists but for all citizens.
 
