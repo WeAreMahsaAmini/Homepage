@@ -26,10 +26,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'G-CQZBB58JSJ',
-        anonymize: true,
+        trackingIds: [
+          'G-CQZBB58JSJ', // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+        ],
       },
     },
   ],
