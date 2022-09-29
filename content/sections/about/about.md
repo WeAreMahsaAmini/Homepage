@@ -28,7 +28,7 @@ They want their freedom back.
 
 ----
 
-# How can you help?
+# How you can help
 
 Spread the word, <a href="https://twitter.com/intent/tweet?text=I%20stand%20with%20Iranian%20people%20and%20%23MahsaAmini%20movement.%20%23%D9%85%D9%87%D8%B3%D8%A7_%D8%A7%D9%85%DB%8C%D9%86%DB%8C%20%23OpIran%20" target="_blank">be our voice</a>.
 

@@ -25,5 +25,12 @@ module.exports = {
         // }
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'G-CQZBB58JSJ',
+        anonymize: true,
+      },
+    },
   ],
 };
