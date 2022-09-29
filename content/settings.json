@@ -17,13 +17,14 @@
   "siteConfiguration": {
     "logo": { "text": "#MahsaAmini" },
     "navigation": {
-      "header": [
+      "header": [],
+      "header1": [
         { "label": "About", "url": "/#about" }
       ],
       "ctaButton": {
         "openNewTab": true,
         "label": "Be Our Voice",
-        "url": "https://twitter.com/intent/tweet?url=https://wearemahsaamini.com/&text=I%20stand%20with%20%23MahsaAmini%20%23%D9%85%D9%87%D8%B3%D8%A7%D9%80%D8%A7%D9%85%DB%8C%D9%86%DB%8C%20%23%D8%A7%D8%B9%D8%AA%D8%B5%D8%A7%D8%A8%D9%80%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C%20%23OpIran"
+        "url": "https://twitter.com/intent/tweet?text=I%20stand%20with%20Iranian%20people%20and%20%23MahsaAmini%20movement.%20%23%D9%85%D9%87%D8%B3%D8%A7_%D8%A7%D9%85%DB%8C%D9%86%DB%8C%20%23OpIran%20"
       },
       "footer": [
       ]
