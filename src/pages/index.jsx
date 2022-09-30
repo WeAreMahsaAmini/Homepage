@@ -1,8 +1,9 @@
 import React from 'react';
 import { Animation, Page, Section, Seo } from 'gatsby-theme-portfolio-minimal';
 import { GatsbyImage } from 'gatsby-plugin-image';
-
+import parseHTML from 'html-react-parser';
 import * as classes from './style.module.css';
+import en from '../lang/en.json';
 
 export default function IndexPage() {
   return (
@@ -13,7 +14,7 @@ export default function IndexPage() {
           <Section anchor="hero">
             <div className={classes.Hero}>
               <div className={classes.Intro}>
-                <span className={classes.ImagePrefix}>Hi, there</span>
+                <span className={classes.ImagePrefix}>{en.block[0].greeting}</span>
 
                 <Animation
                   className={classes.Image}
@@ -30,26 +31,16 @@ export default function IndexPage() {
                   />
                 </Animation>
               </div>
-              <h1 className={classes.Title}>You may be wondering, who is Mahsa Amini?</h1>
-              <h2 className={classes.Subtitle}>
-                She was a 22-year-old Iranian who <u>died in police custody</u> after being severely
-                beaten for not wearing a proper hijab.
-              </h2>
+              <h1 className={classes.Title}>{en.block[0].question}</h1>
+              <h2 className={classes.Subtitle}>{parseHTML(en.block[0].answer)}</h2>
             </div>
           </Section>
         </Animation>
 
         <Animation type="fadeUp">
-          <Section anchor="about" heading="Why are people protesting?">
+          <Section anchor="about" heading={en.block[1].question}>
             <div>
-              <div>
-                Shortly after the Iranian Revolution of 1979, the Islamic Regime of Iran imposed a
-                mandatory hijab on women. Mahsa&apos;s death resulted in large-scale protests across
-                Iran, demanding justice for her, and fighting for women&apos;s basic human rights
-                and freedom. The government of Iran is attempting to suppress the protests, shooting
-                protesters, deploying tear gas and water cannons, and blocking access to the
-                internet. So far, many people have been murdered, beaten, and have gotten arrested.
-              </div>
+              <div>{en.block[1].answer}</div>
               <Animation type="fadeLeft" delay={200}>
                 <div>
                   <GatsbyImage image="../../content/images/mahsa_amini.png" alt="About Image" />
@@ -60,44 +51,39 @@ export default function IndexPage() {
         </Animation>
 
         <Animation type="fadeUp">
-          <Section anchor="request" heading="What are protesters asking for?">
+          <Section anchor="request" heading={en.block[2].question}>
             <div>
               <div>
-                The protestors are not protesting against Islam or any other religion, they are
-                fighting for woman&apos;s basic rights:
+                {en.block[2].answer[0]}
                 <ul>
-                  <li>The right to choose how they dress</li>
-                  <li>The right to sing or dance</li>
-                  <li>
-                    The right to ask for a divorce, and to be considered to have custody over their
-                    children
-                  </li>
-                  <li>The right to leave their country without their husband&apos;s permission</li>
-                  <li>The right to go to the stadium</li>
-                  <li>And many more basic rights...</li>
+                  <li>{en.block[2].answer[1].list[0]}</li>
+                  <li>{en.block[2].answer[1].list[1]}</li>
+                  <li>{en.block[2].answer[1].list[2]}</li>
+                  <li>{en.block[2].answer[1].list[3]}</li>
+                  <li>{en.block[2].answer[1].list[4]}</li>
+                  <li>{en.block[2].answer[1].list[5]}</li>
                 </ul>
-                They are fighting for freedom of speech, not only for journalists but for all
-                citizens. They want their freedom back.
+                {en.block[2].answer[2]}
               </div>
             </div>
           </Section>
         </Animation>
 
         <Animation type="fadeUp">
-          <Section anchor="chanting" heading="What are they chanting?">
+          <Section anchor="chanting" heading={en.block[3].question}>
             <div>
               <ul>
-                <li>&quot;Woman, life, freedom.&quot;</li>
-                <li>&quot;Death to the dictator!&quot;</li>
-                <li>&quot;Freedom, freedom, freedom!&quot;</li>
-                <li>&quot;We will fight and die, but we will get Iran back.&quot;</li>
+                <li>{en.block[3].answer[0].list[0]}</li>
+                <li>{en.block[3].answer[0].list[1]}</li>
+                <li>{en.block[3].answer[0].list[2]}</li>
+                <li>{en.block[3].answer[0].list[3]}</li>
               </ul>
             </div>
           </Section>
         </Animation>
 
         <Animation type="fadeUp">
-          <Section anchor="help" heading="You can help...">
+          <Section anchor="help" heading={en.help}>
             <div>
               <a
                 href="https://twitter.com/intent/tweet?text=I%20stand%20with%20the%20Iranian%20people%20and%20%23MahsaAmini%20movement.%20%23%D9%85%D9%87%D8%B3%D8%A7_%D8%A7%D9%85%DB%8C%D9%86%DB%8C%20%23OpIran%20"
@@ -105,7 +91,7 @@ export default function IndexPage() {
                 rel="noreferrer noopener"
                 className="cta-button"
               >
-                Be our voice
+                {en.btnText}
               </a>
             </div>
           </Section>
