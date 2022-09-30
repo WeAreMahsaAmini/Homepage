@@ -1,24 +1,63 @@
 import React from 'react';
-import {
-  AboutSection,
-  Animation,
-  ArticlesSection,
-  ContactSection,
-  HeroSection,
-  InterestsSection,
-  Page,
-  ProjectsSection,
-  Section,
-  Seo,
-} from 'gatsby-theme-portfolio-minimal';
+import { Animation, Page, Section, Seo } from 'gatsby-theme-portfolio-minimal';
+import { GatsbyImage } from 'gatsby-plugin-image';
+
+import * as classes from './style.module.css';
 
 export default function IndexPage() {
   return (
     <>
       <Seo title="We are Mahsa Amini" />
       <Page useSplashScreenAnimation>
-        <HeroSection sectionId="hero" />
-        <AboutSection sectionId="about" heading="Why are people protesting?" />
+        <Animation type="fadeUp" delay={400}>
+          <Section anchor="hero">
+            <div className={classes.Hero}>
+              <div className={classes.Intro}>
+                <span className={classes.ImagePrefix}>Hi, there</span>
+
+                <Animation
+                  className={classes.Image}
+                  type="waving-hand"
+                  duration={2500}
+                  iterationCount={3}
+                >
+                  <img
+                    width="48"
+                    height="48"
+                    src="/images/waving-hand.png"
+                    alt="Waving Hand Emoji"
+                    loading="eager"
+                  />
+                </Animation>
+              </div>
+              <h1 className={classes.Title}>You may be wondering, who is Mahsa Amini?</h1>
+              <h2 className={classes.Subtitle}>
+                She was a 22-year-old Iranian who <u>died in police custody</u> after being severely
+                beaten for not wearing a proper hijab.
+              </h2>
+            </div>
+          </Section>
+        </Animation>
+
+        <Animation type="fadeUp">
+          <Section anchor="about" heading="Why are people protesting?">
+            <div>
+              <div>
+                Shortly after the Iranian Revolution of 1979, the Islamic Regime of Iran imposed a
+                mandatory hijab on women. Mahsa&apos;s death resulted in large-scale protests across
+                Iran, demanding justice for her, and fighting for women&apos;s basic human rights
+                and freedom. The government of Iran is attempting to suppress the protests, shooting
+                protesters, deploying tear gas and water cannons, and blocking access to the
+                internet. So far, many people have been murdered, beaten, and have gotten arrested.
+              </div>
+              <Animation type="fadeLeft" delay={200}>
+                <div>
+                  <GatsbyImage image="../../content/images/mahsa_amini.png" alt="About Image" />
+                </div>
+              </Animation>
+            </div>
+          </Section>
+        </Animation>
 
         <Animation type="fadeUp">
           <Section anchor="request" heading="What are protesters asking for?">
