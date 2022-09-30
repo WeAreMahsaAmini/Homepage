@@ -9,9 +9,10 @@ module.exports = {
           siteName: 'We are Mahsa Amini', // Used in manifest.json
           shortName: 'We are Mahsa Amini', // Used in manifest.json
           startUrl: '/', // Used in manifest.json
-          backgroundColor: '#FFFFFF', // Used in manifest.json
-          themeColor: '#000000', // Used in manifest.json
+          backgroundColor: '#121212', // Used in manifest.json
+          themeColor: '#121212', // Used in manifest.json
           display: 'minimal-ui', // Used in manifest.json
+          crossOrigin: `use-credentials`,
         },
         contentDirectory: './content',
         blogSettings: {
@@ -25,5 +26,6 @@ module.exports = {
         // }
       },
     },
+    'gatsby-plugin-offline'
   ],
 };
