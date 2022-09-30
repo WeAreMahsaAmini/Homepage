@@ -44,6 +44,10 @@ body[data-theme='darkTheme'] {
     nav {
         width: 100% !important;
     }
+
+    footer a[aria-current] {
+        display: none !important;
+    }
 }
 
 .cta-button {
