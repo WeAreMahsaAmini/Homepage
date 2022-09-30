@@ -9,8 +9,8 @@ module.exports = {
           siteName: 'We are Mahsa Amini', // Used in manifest.json
           shortName: 'We are Mahsa Amini', // Used in manifest.json
           startUrl: '/', // Used in manifest.json
-          backgroundColor: '#FFFFFF', // Used in manifest.json
-          themeColor: '#000000', // Used in manifest.json
+          backgroundColor: '#121212', // Used in manifest.json
+          themeColor: '#121212', // Used in manifest.json
           display: 'minimal-ui', // Used in manifest.json
         },
         contentDirectory: './content',
@@ -25,6 +25,25 @@ module.exports = {
         // }
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "WeAreMahsaAmini",
+        short_name: "WeAreMahsaAmini",
+        start_url: "/",
+        background_color: "#121212",
+        theme_color: "#121212",
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: "standalone",
+        icon: './content/images/favicon.png', // This path is relative to the root of the site.
+        // An optional attribute which provides support for CORS check.
+        // If you do not provide a crossOrigin option, it will skip CORS for manifest.
+        // Any invalid keyword or empty string defaults to `anonymous`
+        crossOrigin: `use-credentials`,
+      },
+    },
+    'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
