@@ -1487,12 +1487,12 @@
 
 "@lmdb/lmdb-darwin-arm64@2.5.2":
   version "2.5.2"
-  resolved "https://registry.npmjs.org/@lmdb/lmdb-darwin-arm64/-/lmdb-darwin-arm64-2.5.2.tgz"
+  resolved "https://registry.yarnpkg.com/@lmdb/lmdb-darwin-arm64/-/lmdb-darwin-arm64-2.5.2.tgz#bc66fa43286b5c082e8fee0eacc17995806b6fbe"
   integrity sha512-+F8ioQIUN68B4UFiIBYu0QQvgb9FmlKw2ctQMSBfW2QBrZIxz9vD9jCGqTCPqZBRbPHAS/vG1zSXnKqnS2ch/A==
 
 "@lmdb/lmdb-darwin-arm64@2.5.3":
   version "2.5.3"
-  resolved "https://registry.npmjs.org/@lmdb/lmdb-darwin-arm64/-/lmdb-darwin-arm64-2.5.3.tgz"
+  resolved "https://registry.yarnpkg.com/@lmdb/lmdb-darwin-arm64/-/lmdb-darwin-arm64-2.5.3.tgz#c423b068165df18da57a81dce5c95f98c6ab9265"
   integrity sha512-RXwGZ/0eCqtCY8FLTM/koR60w+MXyvBUpToXiIyjOcBnC81tAlTUHrRUavCEWPI9zc9VgvpK3+cbumPyR8BSuA==
 
 "@lmdb/lmdb-darwin-x64@2.5.2":
@@ -1556,7 +1556,7 @@
 
 "@msgpackr-extract/msgpackr-extract-darwin-arm64@2.1.2":
   version "2.1.2"
-  resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-darwin-arm64/-/msgpackr-extract-darwin-arm64-2.1.2.tgz"
+  resolved "https://registry.yarnpkg.com/@msgpackr-extract/msgpackr-extract-darwin-arm64/-/msgpackr-extract-darwin-arm64-2.1.2.tgz#9571b87be3a3f2c46de05585470bc4f3af2f6f00"
   integrity sha512-TyVLn3S/+ikMDsh0gbKv2YydKClN8HaJDDpONlaZR+LVJmsxLFUgA+O7zu59h9+f9gX1aj/ahw9wqa6rosmrYQ==
 
 "@msgpackr-extract/msgpackr-extract-darwin-x64@2.1.2":
@@ -5643,35 +5643,15 @@ gatsby-plugin-gdpr-cookies@^2.0.9:
 
 gatsby-plugin-google-gtag@^4.24.0:
   version "4.24.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.24.0.tgz#71ca4d83c91292490e803048d3342f3d60f1aa68"
+  resolved "https://registry.npmjs.org/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.24.0.tgz"
   integrity sha512-2GHzg727Xr+48kxS5+3xSc246gdQLlAk4L0vn5+KauJsP1aCGb2XpumlUQj8H81TA/BnroBc1wlW4N+k7J4I5Q==
   dependencies:
     "@babel/runtime" "^7.15.4"
     minimatch "^3.1.2"
 
-gatsby-plugin-image@^2.13.0:
-  version "2.23.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.23.1.tgz#0383a5232628d2ed97a3651885286594394babf2"
-  integrity sha512-1Lwn3PueX76lkRvMq/ZLhbne+PLUomn48+GBNX4acY8jEOOQnPK/yZDO68c9WmYbejI6sfxFc5kM0cCHkXFRPg==
-  dependencies:
-    "@babel/code-frame" "^7.14.0"
-    "@babel/parser" "^7.15.5"
-    "@babel/runtime" "^7.15.4"
-    "@babel/traverse" "^7.15.4"
-    babel-jsx-utils "^1.1.0"
-    babel-plugin-remove-graphql-queries "^4.23.0"
-    camelcase "^5.3.1"
-    chokidar "^3.5.3"
-    common-tags "^1.8.2"
-    fs-extra "^10.1.0"
-    gatsby-core-utils "^3.23.0"
-    gatsby-plugin-utils "^3.17.1"
-    objectFitPolyfill "^2.3.5"
-    prop-types "^15.8.1"
-
-gatsby-plugin-image@^2.24.0:
+gatsby-plugin-image@^2.13.0, gatsby-plugin-image@^2.24.0:
   version "2.24.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-2.24.0.tgz#965b6c82359f3f51bd8dbf976648f6a81a2c3d03"
+  resolved "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.24.0.tgz"
   integrity sha512-btsUxoVX/tQM09LD36XM9kYNbzZzkfBb3qCiaA+w1dEoArKraUYtmcmoMXW4rep7z8Uo7CmutSRD2GHNF0abFg==
   dependencies:
     "@babel/code-frame" "^7.14.0"
@@ -5700,22 +5680,9 @@ gatsby-plugin-manifest@^4.18.1, gatsby-plugin-manifest@^4.24.0:
     semver "^7.3.7"
     sharp "^0.30.7"
 
-gatsby-plugin-offline@^5.18.1:
-  version "5.23.1"
-  resolved "https://registry.npmjs.org/gatsby-plugin-offline/-/gatsby-plugin-offline-5.23.1.tgz"
-  integrity sha512-culNK+AIuAX1ThxeI28lS0OH46R84oMrYxHZrWaVXIRBRM6hUVg96yqRyqBwjstspkD7qkz0ejDxpVwa96uE+g==
-  dependencies:
-    "@babel/runtime" "^7.15.4"
-    cheerio "^1.0.0-rc.10"
-    gatsby-core-utils "^3.23.0"
-    glob "^7.2.3"
-    idb-keyval "^3.2.0"
-    lodash "^4.17.21"
-    workbox-build "^4.3.1"
-
-gatsby-plugin-offline@^5.24.0:
+gatsby-plugin-offline@^5.18.1, gatsby-plugin-offline@^5.24.0:
   version "5.24.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-5.24.0.tgz#f866ffa9e138395e3d8dd675801087f3da781561"
+  resolved "https://registry.npmjs.org/gatsby-plugin-offline/-/gatsby-plugin-offline-5.24.0.tgz"
   integrity sha512-NiTLxlFOQSpBz7ZXYEtQB1GQOGoO9Xzg/COUkGXoCKlVW84EzXLRiyc01lZcdBk125maE3L8ZAqsql2k8smxLA==
   dependencies:
     "@babel/runtime" "^7.15.4"
@@ -6639,7 +6606,7 @@ hosted-git-info@^3.0.8:
 
 html-dom-parser@3.1.2:
   version "3.1.2"
-  resolved "https://registry.yarnpkg.com/html-dom-parser/-/html-dom-parser-3.1.2.tgz#c137c42df80e17d185ff35a806925d96cc73f408"
+  resolved "https://registry.npmjs.org/html-dom-parser/-/html-dom-parser-3.1.2.tgz"
   integrity sha512-mLTtl3pVn3HnqZSZzW3xVs/mJAKrG1yIw3wlp+9bdoZHHLaBRvELdpfShiPVLyjPypq1Fugv2KMDoGHW4lVXnw==
   dependencies:
     domhandler "5.0.3"
@@ -6652,7 +6619,7 @@ html-entities@^2.1.0, html-entities@^2.3.3:
 
 html-react-parser@^3.0.4:
   version "3.0.4"
-  resolved "https://registry.yarnpkg.com/html-react-parser/-/html-react-parser-3.0.4.tgz#6a6a115a011dfdadd901ca9d2ed80fa5390647e5"
+  resolved "https://registry.npmjs.org/html-react-parser/-/html-react-parser-3.0.4.tgz"
   integrity sha512-va68PSmC7uA6PbOEc9yuw5Mu3OHPXmFKUpkLGvUPdTuNrZ0CJZk1s/8X/FaHjswK/6uZghu2U02tJjussT8+uw==
   dependencies:
     domhandler "5.0.3"
@@ -9472,7 +9439,7 @@ react-modal@^3.11.1:
 
 react-property@2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/react-property/-/react-property-2.0.0.tgz#2156ba9d85fa4741faf1918b38efc1eae3c6a136"
+  resolved "https://registry.npmjs.org/react-property/-/react-property-2.0.0.tgz"
   integrity sha512-kzmNjIgU32mO4mmH5+iUyrqlpFQhF8K2k7eZ4fdLSOPFrD1XgEuSBv9LDEgxRXTMBqMd8ppT0x6TIzqE5pdGdw==
 
 react-refresh@^0.14.0:
@@ -10599,7 +10566,7 @@ style-loader@^2.0.0:
 
 style-to-js@1.1.1:
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/style-to-js/-/style-to-js-1.1.1.tgz#417786986cda61d4525c80aed9d1123a6a7af9b8"
+  resolved "https://registry.npmjs.org/style-to-js/-/style-to-js-1.1.1.tgz"
   integrity sha512-RJ18Z9t2B02sYhZtfWKQq5uplVctgvjTfLWT7+Eb1zjUjIrWzX5SdlkwLGQozrqarTmEzJJ/YmdNJCUNI47elg==
   dependencies:
     style-to-object "0.3.0"
