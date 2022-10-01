@@ -97,3 +97,41 @@
         display: block;
     }
 }
+
+
+.About {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.About .Description {
+    width: 100%;
+    max-width: 31.25rem;
+    margin-bottom: 3rem;
+}
+
+.About .ImageWrapper {
+    width: 100%;
+    max-width: 18rem;
+}
+
+.About img {
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.16);
+    filter: grayscale(20%) contrast(1) brightness(90%);
+}
+
+@media (min-width: 768px) {
+    .About {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .About .Description {
+        margin-bottom: 0;
+        margin-right: 3rem;
+    }
+    .About .ImageWrapper {
+        margin-top: -2rem;
+    }
+}

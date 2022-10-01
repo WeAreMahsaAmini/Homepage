@@ -1,6 +1,6 @@
 import React from 'react';
-import { Animation, Page, Section, Seo } from 'gatsby-theme-portfolio-minimal';
-import { GatsbyImage } from 'gatsby-plugin-image';
+import { AboutSection, Animation, Page, Section, Seo } from 'gatsby-theme-portfolio-minimal';
+import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 import parseHTML from 'html-react-parser';
 import * as classes from './style.module.css';
 import { Helmet } from 'react-helmet';
@@ -50,11 +50,11 @@ function BlogPostTemplate(props) {
 
         <Animation type="fadeUp">
           <Section anchor="about" heading={lang.block[1].question}>
-            <div>
-              <div>{lang.block[1].answer}</div>
+            <div className={classes.About}>
+              <div className={classes.Description}>{lang.block[1].answer}</div>
               <Animation type="fadeLeft" delay={200}>
-                <div>
-                  <GatsbyImage image="../../content/images/mahsa_amini.png" alt="About Image" />
+                <div className={classes.ImageWrapper}>
+                  <img src="/images/mahsa_amini.png" alt="About Mahsa Amini" />
                 </div>
               </Animation>
             </div>
