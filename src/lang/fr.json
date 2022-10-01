@@ -1,0 +1,46 @@
+{
+  "language": "French",
+  "block": [
+    {
+      "greeting": "Bonjour!",
+      "question": "Vous vous demandez peut-être qui est Mahsa Amini?",
+      "answer": "C'était une Iranienne de 22 ans qui est décédée après avoir été arrêtée pour ne pas avoir porté le hijab approprié."
+    },
+    {
+      "question": "Pourquoi nous manifesterions aujourd'hui?",
+      "answer": "Peu de temps après la révolution iranienne de 1979, le régime islamique d'Iran a imposé le port obligatoire du hijab aux femmes.La mort de Mahsa a entraîné des manifestations à grande échelle dans tout l'Iran, demandant justice pour elle et luttant pour les droits humains fondamentaux et la liberté des femmes.Le gouvernement iranien tente de réprimer les manifestations, tirant à balles réelles sur les manifestants, déployant des gaz lacrymogènes et des canons à eau et bloquant l'accès à Internet. Jusqu'à présent, de nombreuses personnes ont été assassinées, battues et arrêtées."
+    },
+    {
+      "question": "Que demandent les manifestants?",
+      "answer": [
+        "Les manifestants ne protestent pas contre l'islam ou toute autre religion, ils se battent pour les droits fondamentaux de la femme",
+        {
+          "list": [
+            "Le droit de choisir comment elles s'habillent ",
+            "Le droit de choisir comment elles s'habillent",
+            "Le droit de demander le divorce et d'être de pouvoir avoir la garde de ses enfants",
+            "TLe droit de quitter son pays sans l'autorisation de son mari",
+            "Le droit d'aller au stade",
+            "Et bien d'autres droits fondamentaux ..."
+          ]
+        },
+        "Elles se battent pour la liberté d'expression, non seulement pour les journalistes, mais pour tous les citoyens. Elles veulent retrouver leur liberté."
+      ]
+    },
+    {
+      "question": "Que chantent-ils ?",
+      "answer": [
+        {
+          "list": [
+            "\"Femme, vie, liberté.\"",
+            "\"Mort au dictateur !\"",
+            "\"Liberté, liberté, liberté !\"",
+            "\"Nous nous battrons et mourrons, mais nous récupérerons l'Iran.\""
+          ]
+        }
+      ]
+    }
+  ],
+  "help": "Vous pouvez nous aider…",
+  "btnText": "Soyez notre voix"
+}
