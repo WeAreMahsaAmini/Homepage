@@ -1,0 +1,46 @@
+{
+  "language": "Turkish",
+  "block": [
+    {
+      "greeting": "Merhaba",
+      "question": "Merak ediyor olabilirsiniz, Mahsa Amini kimdir?",
+      "answer": "She was a 22-year-old Iranian who <u>died in police custody</u> after being severely beaten for not wearing a proper hijab."
+    },
+    {
+      "question": "İnsanlar neden protesto ediyor?",
+      "answer": "1979 İran Devrimi'nden kısa bir süre sonra, İran İslam Rejimi kadınlara zorunlu bir başörtüsü dayattı. mahsa's death resulted in large-scale protests across Iran, demanding justice for her, and fighting for women's basic human rights and freedom. The government of Iran is attempting to suppress the protests, shooting protesters, deploying tear gas and water cannons, and blocking access to the internet. So far, many people have been murdered, beaten, and have gotten arrested."
+    },
+    {
+      "question": "Protestocular ne istiyor?",
+      "answer": [
+        "Göstericiler, İslam'a veya başka bir dine karşı değil, kadınların temel hakları için savaşıyorlar:",
+        {
+          "list": [
+            "Nasıl giyineceklerini seçme hakkı",
+            "Şarkı söyleme veya dans etme hakkı",
+            "Boşanma talep etme ve çocukları üzerinde velayetin kendisine ait sayılma hakkı",
+            "Kocasının izni olmadan ülkelerini terk etme hakkı",
+            "Stadyuma gitme hakkı",
+            "Ve daha birçok temel hak..."
+          ]
+        },
+        "sadece gazeteciler için değil, tüm vatandaşlar için ifade özgürlüğü için savaşıyorlar. Özgürlüklerini geri istiyorlar."
+      ]
+    },
+    {
+      "question": "ne söylüyorlar?",
+      "answer": [
+        {
+          "list": [
+            "\"Nasıl giyindiklerini seçme hakkı\"",
+            "\"Diktatöre ölüm!\"",
+            "\"Özgürlük, özgürlük, özgürlük!\"",
+            "\"Savaşacağız ve öleceğiz ama İran'ı geri alacağız.\""
+          ]
+        }
+      ]
+    }
+  ],
+  "help": "Yardım edebilirsin...",
+  "btnText": "bizim sesimiz olun"
+}
