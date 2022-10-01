@@ -98,6 +98,31 @@ function BlogPostTemplate(props) {
           </Section>
         </Animation>
 
+        <Animation type="fadeUp">
+          <Section anchor="help" heading="Read it in your language">
+            <ul className="languages">
+              <li>
+                <a href="/">English</a>
+              </li>
+              <li>
+                <a href="/fr">French</a>
+              </li>
+              <li>
+                <a href="/nl">Dutch</a>
+              </li>
+              <li>
+                <a href="/it">Italian</a>
+              </li>
+              <li>
+                <a href="/kr">Korean</a>
+              </li>
+              <li>
+                <a href="/th">Thai</a>
+              </li>
+            </ul>
+          </Section>
+        </Animation>
+
         {/* <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} /> */}
         {/* <InterestsSection sectionId="details" heading="Details" /> */}
         {/* <ProjectsSection sectionId="features" heading="Events" /> */}

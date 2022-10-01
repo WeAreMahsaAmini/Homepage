@@ -50,6 +50,36 @@ body[data-theme='darkTheme'] {
     }
 }
 
+.languages {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.languages li {
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.languages li a {
+    padding-right:  20px;
+    display: block;
+    line-height: 16px;
+    border-right: 1px solid var(--subtext-color);
+}
+
+.languages li:last-child a {
+    border-right: none;
+}
+
+
+
 .cta-button {
     font-size: 1.5rem;
     font-weight: 700;

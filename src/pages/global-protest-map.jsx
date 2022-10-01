@@ -11,9 +11,13 @@ export default function forIranPage() {
           <Section anchor="hero">
             <div className={classes.Hero}>
               <iframe
-                title="Protest Map"
+                title="Global Protest Map"
                 src="https://www.google.com/maps/d/embed?mid=1WX-p_1BVlIjywka1zsopdEQhNg1smTM&ehbc=2E312F"
-                height="480"
+                frameBorder="0"
+                style={{
+                  height: 'calc(100vh - 8rem)',
+                  marginTop: '-2rem',
+                }}
               ></iframe>
             </div>
           </Section>
