@@ -45,7 +45,7 @@ body[data-theme='darkTheme'] {
         width: 100% !important;
     }
 
-    footer a[aria-current] {
+    footer > div > a {
         display: none !important;
     }
 }
