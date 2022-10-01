@@ -3,13 +3,23 @@ import { Animation, Page, Section, Seo } from 'gatsby-theme-portfolio-minimal';
 import { GatsbyImage } from 'gatsby-plugin-image';
 import parseHTML from 'html-react-parser';
 import * as classes from './style.module.css';
+import { Helmet } from 'react-helmet';
 
 function BlogPostTemplate(props) {
   // eslint-disable-next-line import/no-dynamic-require, react/destructuring-assignment, global-require, react/prop-types
   const lang = require(`../lang/${props.lang}.json`);
   return (
     <>
-      <Seo title="We are Mahsa Amini" />
+      <Seo
+        title="We Are Mahsa Amini | A Voice for Women in Iran"
+        description="Human rights are being violated in Iran. The Iranian government is killing, beating, and arresting protesters who are fighting for women's basic human rights. Join the movement by being our voice."
+      />
+      <Helmet>
+        <meta property="og:image" content="https://wearemahsaamini.com/images/social_banner.png" />
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:width" content="630" />
+        <meta property="twitter:card" content="summary_large_image" />
+      </Helmet>
       <Page useSplashScreenAnimation>
         <Animation type="fadeUp" delay={400}>
           <Section anchor="hero">
