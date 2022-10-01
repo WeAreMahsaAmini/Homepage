@@ -1,0 +1,46 @@
+{
+  "language": "Italian",
+  "block": [
+    {
+      "greeting": " Ciao",
+      "question": "Ti starai chiedendo, chi è Mahsa Amini?",
+      "answer": "Era una ragazza iraniana di 22 anni morta durante la custodia della polizia dopo essere stata arrestata perché secondo le regole islamiche, indossava male l'hijab. (Il velo che copre i capelli)."
+    },
+    {
+      "question": "Perché le persone protestano?",
+      "answer": "Poco dopo la rivoluzione iraniana del 1979, il regime islamico dell'Iran ha imposto 'hijab alle donne.La morte di Masa ha provocato proteste su larga scala in tutto 'Iran, chiedendo giustizia per lei e combattendo per i diritti fondamentali umani e la libertà delle donne. Il governo iraniano intende reprimere il tentativo di protesta, sparando ai manifestanti, utilizzando gas lacrimogeni e cannoni ad acqua e bloccando l'accesso a Internet. Fino ad ora molte persone sono state uccise, picchiate ed arrestate."
+    },
+    {
+      "question": "Cosa chiedono i manifestanti?",
+      "answer": [
+        "I manifestanti non protestano contro 'Islam o qualsiasi altra religione, si battono per i diritti fondamentali delle donne:",
+        {
+          "list": [
+            "Il diritto di scegliere come vestirsi",
+            "Il diritto di cantare o ballare",
+            "Il diritto di chiedere il divorzio e di essere considerato affidatario dei propri figli",
+            "Il diritto di lasciare il proprio paese senza il permesso del marito o padre",
+            "Il diritto di andare allo stadio",
+            "E molti altri diritti..."
+          ]
+        },
+        "Stanno lottando per la libertà di parola, non solo per i giornalisti ma per tutti i cittadini. Vogliono indietro la loro libertà."
+      ]
+    },
+    {
+      "question": "Cosa stanno gridando?",
+      "answer": [
+        {
+          "list": [
+            "\"Donna, vita, libertà\"",
+            "\"Death to the dictator!\"",
+            "\"Morte al dittatore!\"",
+            "\"Libertà, libertà, libertà!\""
+          ]
+        }
+      ]
+    }
+  ],
+  "help": "Puoi aiutare",
+  "btnText": "Si la nostra voce!"
+}
