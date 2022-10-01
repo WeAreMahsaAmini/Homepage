@@ -1,6 +1,6 @@
 import React from 'react';
 import MainBlock from '../templates/MainBlock';
 
-export default function frPage() {
+export default function dePage() {
   return <MainBlock lang="de" />;
 }
