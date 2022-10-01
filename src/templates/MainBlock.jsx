@@ -118,6 +118,9 @@ function BlogPostTemplate(props) {
                 <a href="/fr">French</a>
               </li>
               <li>
+                <a href="/es">Spanish</a>
+              </li>
+              <li>
                 <a href="/nl">Dutch</a>
               </li>
               <li>
@@ -130,7 +133,7 @@ function BlogPostTemplate(props) {
                 <a href="/th">Thai</a>
               </li>
               <li>
-                <a href="/es">Spanish</a>
+                <a href="/tr">Turkish</a>
               </li>
             </ul>
           </Section>
