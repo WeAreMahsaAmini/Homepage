@@ -1,0 +1,43 @@
+{
+	"language": "Spanish",
+	"block": [{
+			"greeting": "Hola",
+			"question": "Te estarás preguntando, ¿quién es Mahsa Amini?",
+			"answer": "Era una iraní de 22 años que <u>murió bajo custodia policial</u> después de ser brutalmente golpeada por no llevar un hiyab adecuado."
+		},
+		{
+			"question": "¿Por qué protesta la gente?",
+			"answer": "Poco después de la revolución iraní de 1979, el régimen islámico de Irán impuso el hiyab obligatorio a las mujeres. La muerte de Mahsa dio lugar a protestas a gran escala en todo Irán, exigiendo justicia para ella y luchando por los derechos humanos básicos y la libertad de las mujeres. El gobierno de Irán está intentando reprimir las protestas disparando a los manifestantes, desplegando gases lacrimógenos y cañones de agua y bloqueando el acceso a Internet. Hasta ahora, muchas personas han sido asesinadas, golpeadas y arrestadas."
+		},
+		{
+			"question": "¿Qué piden los manifestantes?",
+			"answer": [
+				"Los manifestantes no protestan contra el Islam o cualquier otra religión, luchan por los derechos básicos de la mujer:",
+				{
+					"list": [
+						"El derecho a elegir cómo se visten",
+						"El derecho a cantar o bailar",
+						"l derecho a pedir el divorcio, y a que se considere que tiene la patria potestad de sus hijos",
+						"El derecho a salir de su país sin el permiso de su esposo",
+						"El derecho a ir al estadio",
+						"Y muchos más derechos básicos..."
+					]
+				},
+				"Están luchando por la libertad de expresión, no solo de los periodistas sino de todos los ciudadanos. Quieren recuperar su libertad."
+			]
+		},
+		{
+			"question": "¿Qué están cantando?",
+			"answer": [{
+				"list": [
+					"\"El derecho a elegir cómo se visten\"",
+					"\"¡Muerte al dictador!\"",
+					"\"¡Libertad, libertad, libertad!\"",
+					"\"Lucharemos y moriremos, pero recuperaremos a Irán.\""
+				]
+			}]
+		}
+	],
+	"help": "Puedes ayudar...",
+	"btnText": "Se nuestra voz"
+}
