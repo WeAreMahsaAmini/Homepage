@@ -17,6 +17,7 @@
     "logo": { "text": "#MahsaAmini" },
     "navigation": {
       "header": [
+        { "label": "Protest Map", "url": "/global-protest-map" },
         { "label": "QR Code", "url": "/qrcode" }
       ],
       "ctaButton": {
