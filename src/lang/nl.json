@@ -1,0 +1,46 @@
+{
+  "language": "Dutch",
+  "block": [
+    {
+      "greeting": "Hallo daar",
+      "question": "e vraagt je misschien af, wie is Mahsa Amini?",
+      "answer": "Ze is een 22 jarige Iraniër die is overleden tijdens haar politie hechtenis. Dit is gebeurd nadat ze was gearresteerd vanwege het verkeerd dragen van een hijab (hoofddoek)."
+    },
+    {
+      "question": "Waarom zijn mensen aan het protesteren?",
+      "answer": "Kort na de Iraanse revolutie in 1979 verplichte het islamitische regime van Iran vrouwen om een Hijab (hoofddoek) te dragen.Mahsa dood veroorzaakt door heel Iran grote demonstraties. Hierin vraagt de Iraanse bevolking om gerechtigheid voor de dood van Mahsa en vechten ze voor de vrijheden en mensenrechten van de Iraanse vrouw. De overheid in Iran probeert de demonstraties en protesten te onderdrukken doormiddel van het schieten op demonstranten, gebruik van traangas en water kanonnen en blokkeren ze de toegang tot het internet. Tot nu toe zijn vele Iraanse burgers vermoord, mishandeld of gearresteerd."
+    },
+    {
+      "question": "Waar vragen de demonstranten om?",
+      "answer": [
+        "De demonstranten zijn niet aan het demonstreren tegen de islam of welk andere religie, ze vechten voor de de volgende vrouwenrechten:",
+        {
+          "list": [
+            "Het recht om zelf te bepalen hoe je als vrouw wilt kleden.",
+            "Het recht om te mogen zingen en dansen.",
+            "Het recht om een scheiding aan te vragen en om bevoegdheid over je kinderen te krijgen na de scheiding",
+            "Het recht om het land te mogen verlaten zonder de toestemming van hun man.",
+            "Het recht om een stadion te mogen bezoeken. "
+            
+          ]
+        },
+        "Ze vechten for the vrijheid van meningsuiting, niet alleen voor journalisten maar voor alle burgers. Ze willen hun vrijheid terug."
+      ]
+    },
+    {
+      "question": "Wat wordt er geroepen?",
+      "answer": [
+        {
+          "list": [
+            "\"Vrouwen, Leven en vrijheid\"",
+            "\"Dood aan de dictatuur!\"",
+            "\"Vrijheid, vrijheid, vrijheid\"",
+            "\"We zullen vechten tot ons dood, maar we zullen Iran terug krijgen.\""
+          ]
+        }
+      ]
+    }
+  ],
+  "help": "Je kan helpen...",
+  "btnText": "Laat je stem horen"
+}
