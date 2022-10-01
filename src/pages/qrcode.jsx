@@ -24,6 +24,7 @@ export default function QRCode() {
                   <option value="en">English website</option>
                   <option value="fr">French website</option>
                   <option value="it">Italian website</option>
+                  <option value="nl">Dutch website</option>
                   <option value="th">Thai website</option>
                   <option value="kr">Korean website</option>
                 </select>
