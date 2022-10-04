@@ -3,18 +3,18 @@
   "block": [
     {
       "greeting": "Hi, there",
-      "question": "You may be wondering, who is Mahsa Amini?",
-      "answer": "She was a 22-year-old Iranian who <u>died in police custody</u> after being severely beaten for not wearing a proper hijab."
+      "question": "You may be wondering, who Mahsa Amini is",
+      "answer": "She was a 22-year-old Iranian who <u>passed in police custody</u> after being severely beaten for not wearing a proper hijab."
     },
     {
       "question": "Background",
-      "answer": "Shortly after the 1979 Islamic Revolution in Iran, the islamic regime imposed a mandatory hijab on women. Since then, many forms of law enforncement have been implemented to force women to wear hijab, the most recent one being the morality police which has been active since 2005. Mahsa Amini was a young girl from Saqqez, Iran who wanted to spend a few days in Tehran with her Family. While she was in Tehran, she was arrested by the morality police and after a few hours she was taken to the hospital due to severe traumatic brain injury. After two days in coma, she died at age 22. Mahsa's death resulted in large-scale protests across Iran, demanding justice for her, and fighting for women's basic human rights and freedom. The government of Iran is attempting to suppress the protests, shooting protesters, deploying tear gas and water cannons, and blocking access to the internet. So far, many people have been murdered, beaten, and have gotten arrested."
+      "answer": "Shortly after the 1979 Islamic Revolution in Iran, the islamic regime imposed a mandatory hijab on women. Since then, many forms of law enforncement have been implemented to force women to wear hijab, the most recent one being the morality police which has been active since 2005. Mahsa Amini was a young girl from Saqqez, Iran, who wanted to spend a few days in Tehran with her Family. While she was in Tehran, she was arrested by the morality police and after a few hours she was taken to the hospital due to severe traumatic brain injury. After two days in coma, she died at age 22. Mahsa's death resulted in large-scale protests across Iran, demanding justice for her, and fighting for women's basic human rights and freedom. The government of Iran is attempting to suppress the protests, shooting protesters, deploying tear gas and water cannons, and blocking access to the internet. So far, many people have been murdered, beaten, and have gotten arrested."
     },
     {
       "question": "What are protesters asking for?",
       "answer": [
         "Dismantlement of the islamic regime in Iran",
-        "The protestors are not protesting against Islam or any other religion, they are fighting for woman's basic rights:",
+        "The protestors are not protesting against Islam or any other religions. In fact, they are fighting for women's basic rights:",
         {
           "list": [
             "The right to choose how they dress",
@@ -30,7 +30,7 @@
     },
     {
       "question": "Is this the first time people are standing against the islamic regime?",
-      "answer": "Of course not! There were numerous protests against the islamic regime's policies, however, this never has been an easy fight. People are dealing with a corrupt and ruthless system. As an example, during the 2019 protests, the islamic regime brutally killed 1500 people within 3 days."
+      "answer": "Of course not! There were numerous protests against the islamic regime's policies. However, this never has been an easy fight. People are dealing with a corrupt and ruthless system. As an example, during the 2019 protests, the islamic regime brutally killed 1500 people within 3 days."
     },
     {
       "question": "What are they chanting?",
