@@ -67,12 +67,9 @@ function BlogPostTemplate(props) {
               <div>
                 {lang.block[2].answer[0]}
                 <ul>
-                  <li>{lang.block[2].answer[1].list[0]}</li>
-                  <li>{lang.block[2].answer[1].list[1]}</li>
-                  <li>{lang.block[2].answer[1].list[2]}</li>
-                  <li>{lang.block[2].answer[1].list[3]}</li>
-                  <li>{lang.block[2].answer[1].list[4]}</li>
-                  <li>{lang.block[2].answer[1].list[5]}</li>
+                  {lang.block[2].answer[1].list.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
                 </ul>
                 {lang.block[2].answer[2]}
               </div>
@@ -84,10 +81,9 @@ function BlogPostTemplate(props) {
           <Section anchor="chanting" heading={lang.block[3].question}>
             <div>
               <ul>
-                <li>{lang.block[3].answer[0].list[0]}</li>
-                <li>{lang.block[3].answer[0].list[1]}</li>
-                <li>{lang.block[3].answer[0].list[2]}</li>
-                <li>{lang.block[3].answer[0].list[3]}</li>
+                {lang.block[3].answer[0].list.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
               </ul>
             </div>
           </Section>
