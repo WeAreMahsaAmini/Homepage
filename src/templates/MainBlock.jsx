@@ -2,8 +2,8 @@ import React from 'react';
 import { AboutSection, Animation, Page, Section, Seo } from 'gatsby-theme-portfolio-minimal';
 import { GatsbyImage, StaticImage } from 'gatsby-plugin-image';
 import parseHTML from 'html-react-parser';
-import * as classes from './style.module.css';
 import { Helmet } from 'react-helmet';
+import * as classes from './style.module.css';
 
 function BlogPostTemplate(props) {
   // eslint-disable-next-line import/no-dynamic-require, react/destructuring-assignment, global-require, react/prop-types
@@ -113,6 +113,9 @@ function BlogPostTemplate(props) {
             <ul className="languages">
               <li>
                 <a href="/">English</a>
+              </li>
+              <li>
+                <a href="/ar">عربي</a>
               </li>
               <li>
                 <a href="/fr">French</a>
