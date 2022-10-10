@@ -8,7 +8,7 @@
     },
     {
       "question": "Pourquoi nous manifesterions aujourd'hui?",
-      "answer": "Peu de temps après la révolution iranienne de 1979, le régime islamique d'Iran a imposé le port obligatoire du hijab aux femmes.La mort de Mahsa a entraîné des manifestations à grande échelle dans tout l'Iran, demandant justice pour elle et luttant pour les droits humains fondamentaux et la liberté des femmes.Le gouvernement iranien tente de réprimer les manifestations, tirant à balles réelles sur les manifestants, déployant des gaz lacrymogènes et des canons à eau et bloquant l'accès à Internet. Jusqu'à présent, de nombreuses personnes ont été assassinées, battues et arrêtées."
+      "answer": "Peu de temps après la révolution iranienne de 1979, le régime islamique d'Iran a imposé le port obligatoire du hijab aux femmes.La mort de Mahsa a entraîné des manifestations à grande échelle dans tout l'Iran, demandant justice pour elle et luttant pour les droits humains fondamentaux et la liberté des femmes. Le gouvernement iranien tente de réprimer les manifestations, en tirant à balles réelles sur les manifestants, en déployant des gaz lacrymogènes et des canons à eau et en bloquant l'accès à Internet. Jusqu'à présent, de nombreuses personnes ont été assassinées, battues et arrêtées."
     },
     {
       "question": "Que demandent les manifestants?",
@@ -16,10 +16,9 @@
         "Les manifestants ne protestent pas contre l'islam ou toute autre religion, ils se battent pour les droits fondamentaux de la femme",
         {
           "list": [
-            "Le droit de choisir comment elles s'habillent ",
             "Le droit de choisir comment elles s'habillent",
-            "Le droit de demander le divorce et d'être de pouvoir avoir la garde de ses enfants",
-            "TLe droit de quitter son pays sans l'autorisation de son mari",
+            "Le droit de demander le divorce et de pouvoir avoir la garde de ses enfants",
+            "Le droit de quitter son pays sans l'autorisation de son mari",
             "Le droit d'aller au stade",
             "Et bien d'autres droits fondamentaux ..."
           ]
@@ -28,7 +27,7 @@
       ]
     },
     {
-      "question": "Que chantent-ils ?",
+      "question": "Que chantent-elles ?",
       "answer": [
         {
           "list": [
