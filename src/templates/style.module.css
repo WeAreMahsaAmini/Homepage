@@ -135,3 +135,9 @@
         margin-top: -2rem;
     }
 }
+
+.IranMapContainer {
+    background-color: wheat;
+    width: 22rem;
+    height: 28rem;
+}

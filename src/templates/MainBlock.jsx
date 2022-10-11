@@ -79,12 +79,19 @@ function BlogPostTemplate(props) {
 
         <Animation type="fadeUp">
           <Section anchor="chanting" heading={lang.block[3].question}>
-            <div>
-              <ul>
-                {lang.block[3].answer[0].list.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
+            <div className={classes.About}>
+              <div>
+                <ul>
+                  {lang.block[3].answer[0].list.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </div>
+              <Animation type="fadeLeft" delay={200}>
+                <div className={classes.IranMapContainer}>
+
+                </div>
+              </Animation>
             </div>
           </Section>
         </Animation>
