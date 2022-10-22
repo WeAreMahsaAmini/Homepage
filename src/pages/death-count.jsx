@@ -4,6 +4,7 @@ import CountUp from 'react-countup';
 
 // eslint-disable-next-line react/prop-types
 export default function QRCode({ serverData }) {
+  const { total_executions, juvenile_executions, women_executions } = serverData || {};
   return (
     <>
       <Seo title="Gallery" useTitleTemplate noIndex />
@@ -12,15 +13,14 @@ export default function QRCode({ serverData }) {
           <div style={{ textAlign: 'center' }}>
             <Section anchor="deathcount" heading="2022 Protests Death Count">
               <p className="cta-button">
-                Total executions: <CountUp duration="5" end={serverData.total_executions} />
+                Total executions: <CountUp duration="1" end={total_executions} />
               </p>
               <p className="cta-button">
-                Juvenile executions: <CountUp duration="5" end={serverData.juvenile_executions} />
+                Juvenile executions: <CountUp duration="1" end={juvenile_executions} />
               </p>
               <p className="cta-button">
-                Women executions: <CountUp duration="5" end={serverData.women_executions} />
+                Women executions: <CountUp duration="1" end={women_executions} />
               </p>
-              {/* <img alt="Happy dog" src={serverData.message} /> */}
             </Section>
           </div>
         </Animation>
