@@ -11,10 +11,16 @@ export default function QRCode({ serverData }) {
         <Animation type="fadeUp">
           <div style={{ textAlign: 'center' }}>
             <Section anchor="deathcount" heading="2022 Protests Death Count">
-            <p className="cta-button">Total Executions: <CountUp duration="5" end={serverData.total_executions} /> </p>
-            <p className="cta-button">Juvenile Executions: <CountUp duration="5" end={serverData.juvenile_executions} /> </p>
-            <p className="cta-button">Women Executions: <CountUp duration="5" end={serverData.women_executions} /></p>
-            {/* <img alt="Happy dog" src={serverData.message} /> */}
+              <p className="cta-button">
+                Total executions: <CountUp duration="5" end={serverData.total_executions} />
+              </p>
+              <p className="cta-button">
+                Juvenile executions: <CountUp duration="5" end={serverData.juvenile_executions} />
+              </p>
+              <p className="cta-button">
+                Women executions: <CountUp duration="5" end={serverData.women_executions} />
+              </p>
+              {/* <img alt="Happy dog" src={serverData.message} /> */}
             </Section>
           </div>
         </Animation>
