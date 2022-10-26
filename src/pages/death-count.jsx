@@ -16,7 +16,7 @@ export default function DeatCount() {
       <Page>
         <Animation type="fadeUp">
           <div style={{ textAlign: 'center' }}>
-            <Section anchor="deathcount" heading="2022 Protests Death Count">
+            <Section anchor="deathcount" heading="2022 Total Executions">
               <p className="cta-button">
                 Total executions: <CountUp duration="1" end={data.total_executions} />
               </p>
